@@ -93,3 +93,13 @@ body {
 .datatable td:first-child{
   text-transform: uppercase;
 }
+
+/* Custom CSS */
+p {
+  font-family: Georgia, "Times New Roman";
+  color: #05080C;
+}
+
+table {
+  border-style: 2px solid black;
+}
