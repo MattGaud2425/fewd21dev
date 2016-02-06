@@ -1,4 +1,6 @@
 body {
+  width: 95%;
+  margin: auto;
 
 }
 
@@ -103,3 +105,65 @@ p {
 table {
   border-style: 2px solid black;
 }
+
+#toc a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+#toc a:hover{
+    color:blue;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+
+#toc ol ul a {
+  color: #3344aa;
+}
+
+#free {
+  color: none;
+}
+
+#tableOfContents {
+  border: 3px solid black;
+  float: right;
+  width: 35%;
+}
+
+#xia-image {
+  margin: auto;
+  display: block;
+}
+
+#toc {
+  border: 2px solid black;
+  background-color: #d3d3d3;
+  width: 35%;
+
+}
+
+table {
+  border: 1px solid black;
+}
+
+#h3toc {
+  padding-left: 10px;
+}
+
+h4 {
+  padding-left: 10px;
+}
+
+#footnotes {
+  border: 1px solid black;
+  width: 98%;
+  background-color: #e4eaea;
+  margin: auto;
+  padding-left: 5px;
+}
+
