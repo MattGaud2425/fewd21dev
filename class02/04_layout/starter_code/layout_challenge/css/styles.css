@@ -1,0 +1,188 @@
+/* CSS for Index.html */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Two-Column Styling */
+
+.two-column > div > div {
+	background: #ddd;
+	height: 100px;
+	margin: 5px;
+	border: 2px solid black;
+	}
+
+.two-column	.header {	
+	width: 100%;
+	float: left;
+	}
+
+.two-column .main1 {
+	width: 60%;
+	float: left;
+	}
+
+.two-column .main2{
+	width: 40%;
+	float: right;
+	}
+
+.two-column .footer {
+	width: 100%;
+	float: left;
+	}
+
+/* Three-Column Styling */
+
+.three-column > div > div {
+	background: #ddd;
+	height: 100px;
+	margin: 5px;
+	border: 2px solid black;
+}
+
+.three-column .header {
+	width: 100%;
+	float: left%;
+}
+
+.three-column .main1 {
+	width: 20%;
+	float: left;
+}
+
+.three-column .main2 {
+	width: 60%;
+	float: left;
+}
+
+.three-column .main3 {
+	width: 20%;
+	float: left;
+}
+
+.three-column .footer {
+	width: 100%;
+	float: left;
+}
+
+/* Simple Marketing Styling */
+
+.simple-marketing > div > div {
+	background: #ddd;
+	height: 100px;
+	margin: 5px;
+	border: 2px solid black;
+}
+
+.simple-marketing .header {
+	width: 100%;
+	float: left;
+}
+
+.simple-marketing .level1-main1 {
+	width: 50%;
+	float: left;
+}
+
+.simple-marketing .level1-main2 {
+	width: 50%;
+	float: left;
+}
+
+.simple-marketing .level2-main1 {
+	width: 33%;
+	float: left;
+}
+
+.simple-marketing .level2-main2 {
+	width: 33%;
+	float: left;
+}
+
+.simple-marketing .level2-main3 {
+	width: 33%;
+	float: left;
+}
+
+.simple-marketing .footer {
+	width: 100%;
+	float: left;
+}
+
+/* Marketing With Nav Styling */ 
+.marketing-with-nav > div > div {
+	background: #ddd;
+	height: 100px;
+	margin: 5px;
+	border: 2px solid black;
+}
+
+.marketing-with-nav .header1 {
+	width: 20%;
+	float: left;
+}
+
+.marketing-with-nav .header2 {
+	width: 10%;
+	height: 40%;
+	float: right;
+}
+
+.marketing-with-nav .header3 {
+	width: 10%;
+	height: 40%;
+	float: right;
+}
+
+.marketing-with-nav .header4 {
+	width: 10%;
+	height: 40%;
+	float: right;
+}
+
+.marketing-with-nav .header5 {
+	width: 10%;
+	height: 40%;
+	float: right;
+}
+
+.marketing-with-nav .level1-main1 {
+	width: 100%;
+	float: left;
+}
+
+.marketing-with-nav .level2-main1 {
+	width: 33%;
+	float: left;
+}
+
+.marketing-with-nav .level2-main2 {
+	width: 33%;
+	float: left;
+}
+
+.marketing-with-nav .level2-main3 {
+	width: 33%;
+	float: left;
+}
+
+.marketing-with-nav .footer {
+	width: 100%;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+

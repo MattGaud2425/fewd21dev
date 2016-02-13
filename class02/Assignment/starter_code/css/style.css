@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800,300,300italic,600);
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+     background-size: cover;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+* html {
+     font: 'Open Sans', sans-serif;
+}
+
+
+/* end */
+
+div {
+     position: relative;
+     float: left;
+     clear: both;
+}
+
+.section1 {
+
+}
+
+#logo {
+     font-weight: 800;
+     font-size: 24px;
+}
+
+#header-text {
+     font-weight: 600;
+     font-size: 24px;
+}
+
+#signup {
+     font-weight: 800;
+     font-size: 14px;
+     border-radius: 5px;
+}
+
+.section2 {
+     background-color: #f0efef;
+}
+
+.section2 ul li {
+          font-weight: 300;
+          font-size: 13px;
+}
+
+.section2 p {
+          font-weight: 300;
+          font-size: 13px;
+}
+
+
+
+#header2 {
+     font-weight: 600;
+     font-size: 20px;
+}
+
+#psection2 {
+     font-weight: 300;
+     font-size: 13px;
+}
+
+.section3 {
+
+}
+
+.section4 {
+
+}
+
+.section5 {
+
+}
+
