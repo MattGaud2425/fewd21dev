@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+	html {
+		font-size: 16px !important;
+	}
+
+	h1, h2 ,h3 {
+			font-size: 16px !important;
+		}
+
+	h4, h5, h6 {
+			font-size: 24px !important;
+		}
+
+		blockquote, li {
+			font-size: 16px !important;
+		}
+
+	.alignright {
+  	float: left;
+  	padding: 10px 0; /* note the padding around a right floated image */
+	}
+
+	.alignleft {
+  	float: left;
+  	padding: 10px 0; /* note the padding around a left floated image */
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	#hero, #benefits, #testimonial, #bottom-cta, #main {
+		width: 100% !important;
+	}
+}

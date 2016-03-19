@@ -1,0 +1,65 @@
+
+
+/*header 
+
+.tagline
+
+.hero-clearfix
+.hero-block 
+
+.block-group
+.block * 3
+
+footer */
+
+.menu-icon {
+	display: none;
+	font-size: 4em;
+	line-height: 1em;
+}
+
+.active {
+	display: block;
+}
+
+@media screen and (max-width: 768px) {
+
+	.container {
+		width: 94%;
+	}
+
+	.menu-icon {
+		display: inline-block;
+		float: left;
+	}
+
+	.navigation {
+		width: 100%;
+		display: none;
+	}
+
+	.horizontal-nav ul {
+		position: absolute;
+    left: 0;
+    top: 0;
+	}
+
+	.horizontal-nav li{
+    display: block;
+	}
+
+	.tagline {
+		display: none;
+	}
+
+	.hero-block {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.block {
+		float: none;
+		margin: 20px 0px;
+		width: 100%;
+	}
+}
