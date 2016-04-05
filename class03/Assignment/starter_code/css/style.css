@@ -29,13 +29,16 @@
 
 .section1 .main-nav {
 	text-align: right;
-	color: yellow;
-	font-size: 28px;
+	color: #f9e42e;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 0.05em;
 
 }
 .section1 ul li {
 	display: inline-block;
 	margin-top: 25px;
+	padding: 10px 20px;
 }
 
 .aside p {
@@ -47,13 +50,102 @@
 	text-align: left;
 	margin-left: 35px;
 	margin-top: 25px;
+	color:  #033048;
 }
 
 .aside ul li {
 	display: block;
 }
 
+.aside .ad-unit {
+	height: 350px;
+	background-color: #fff;
+}
+
+.aside .aside-header {
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.main {
+	color:  #033048;
+}
+
+.main h2 {
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.main p {
+	font-size: 24px;
+}
+
 body {
 	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.signup-section {
+	width: 100vw;
+	height: 20vh;
+	background-color: #f9e42e;
+	justify-content: center;
+	align-content: center;
+}
+
+.signup-section button {
+	background-color: #033048;
+	color: #fff;
+	margin-top: 8vh;
+	padding: 10px 15px;
+
+}
+
+.footer {
+	width: 100vw;
+	height: 60vh;
+	background-color: #000;
+	text-align: center;
+	color: #033048;
+	justify-content: center;
+	align-content: center;
 	
 }
+
+.footer p {
+	text-align: center;
+
+}
+
+/*background color: #f0efef
+yellow: #f9e42e
+dark blue: #033048
+light grey: #606161
+almost black: #121212
+
+Font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
+Weight: Light, Light Italic, Semibold, Extrabold
+
+Nav: Semibold, 24px
+
+Main column width: 700px
+Sidebar width: 240px
+Gutter: 20px
+
+Post Titles - 40px, semibold
+"How I implemented Relaxr in 2 weeks and changed my life."
+"I traveled across the globe thanks to Relaxr’s Excel auomation"
+
+Body text - Light 24px
+Read More - 24px semibold
+
+Sidebar headers - 32px, extra bold
+Categories list - 24px, light
+"Success stories
+Stats
+How tos
+Best of
+Business tips"
+
+About text - 22px light
+Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.
+Learn More - Semibold, 22*/
