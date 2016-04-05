@@ -49,32 +49,61 @@ div {
 }
 
 .section1 {
-
+     color: #fff;
+     height: 100vh;
+     width: 100vw;
 }
 
 #logo {
+     position: absolute;
+     left: 20px;
+     top: 20px;
      font-weight: 800;
-     font-size: 24px;
+     font-size: 30px;
 }
 
 #header-text {
      font-weight: 600;
-     font-size: 24px;
+     font-size: 30px;
+     letter-spacing: .1em;
+     position: absolute;
+     top: 40%;
+     left: 25%;
+     right: 20%;
+     bottom: 40%;
 }
 
 #signup {
      font-weight: 800;
      font-size: 14px;
      border-radius: 5px;
+     width: 10vw;
+     height: 10vh;
+     position: absolute;
+     top: 60%;
+     left: 45%;
+     bottom: 40%;
+     margin: auto auto;
 }
 
 .section2 {
-     background-color: #f0efef;
+     height: 50vh;
+     width: 100vw;
+     background-color: #fff;
+     font-size: 30px !important;
+     font-weight: 600;
+}
+#psection2 {
+     font-size: 25px;
+}
+#header2 {
+     margin-top: 15px;
 }
 
 .section2 ul li {
           font-weight: 300;
-          font-size: 13px;
+          font-size: 20px;
+          list-style-type: circle;
 }
 
 .section2 p {
@@ -83,26 +112,72 @@ div {
 }
 
 
-
-#header2 {
-     font-weight: 600;
-     font-size: 20px;
-}
-
-#psection2 {
-     font-weight: 300;
-     font-size: 13px;
-}
-
 .section3 {
+     height: 40vh;
+     width: 100vw;
 
+}
+
+.section3 p {
+     font-size: 25px;
+     color: #fff;
+     text-align: center;
+     margin-top: 15vh;
 }
 
 .section4 {
+     width: 100vw;
+     height: 20vh;
+     background-color: yellow;
 
+}
+
+.section4 button.signupnow {
+     padding: 25px;
+      text-align: center;
+      position: absolute;
+      right: 40%;
+      left: 40%;
+      top: 20%;
 }
 
 .section5 {
+     height: 60vh;
+     width: 100vw;
+     background-color: #000;
+     color: #fff;
+     font-size: 30px;
+     font-weight: 600;
 
 }
+.section5 p {
+     text-align: center;
+}
+
+/*<!-- benefits background color: #f0efef
+yellow: #f9e42e
+dark blue: #033048
+light grey: #606161
+almost black: #121212
+
+Font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
+Weight: Light, Light Italic, Semibold, Extrabold
+
+"Relaxr" - Extra bold, 24px
+"Get piece of mind with a single tap" - Semibold, 24px
+"Get it Now" - Extra bold, 14px. 5px border radius
+"Benefits" - Semibold, 20px
+"The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px
+"• Schedule meetings for you
+• Excel automation to complete your work for you
+• Responds to emails on your behalf
+• Does all your work for you with our revolutionary AI technology" - Light, 13px
+
+"“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”" - Light Italic, 18px
+"- Amanda, Intuit " - semibold, 18px
+
+"Sign Up Now!" - extra bold, 12px, 5px border radius
+
+Relaxr - extra bold, 24px
+"Copyright 2015. Relaxr." - 9px, semibold -->*/
 

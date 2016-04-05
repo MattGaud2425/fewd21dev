@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--includes meta tags, title and more header definitions-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <title>Furatto Demo</title>
+
+  <!-- Furatto core CSS -->
+  <link href="dist/css/furatto.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-12"> 
+      <nav class="navigation-bar">
+       <ul class="brand-section">
+         <li class="brand-name">
+          <a href="/" class="menu-trigger" id="trigger">Furatto</a>
+         </li>
+         <li class="menu-toggle">
+          <a href="#">Menu</a>
+         </li>
+       </ul>
+       <ul class="pull-right">
+         <li class="divider"></li>
+         <li><a href="#">Add-ons</a></li>
+         <li class="divider"></li>
+         <li><a href="/docs">Docs</a></li>
+         <li class="divider"></li>
+         <li><a href="#" class="button three-d">Get Started <i class="fa fa-chevron-circle-right"></i></a></li>
+       </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-2">
+       <ul class="navigation side-nav">
+        <li class="header"><strong>Navbar</strong></li>
+        <li><a href="#">Navigation 1</a></li>
+        <li><a href="#">Navigation 2</a></li>
+        <li><a href="#">Navigation 3</a></li>
+        <li><a href="#">Navigation 4</a></li>
+        <li class="divider"></li>
+        <li class="header"><strong>Sub Navbar</strong></li>
+        <li><a href="#">Nav Link 1</a></li>
+        <li><a href="#">Nav Link 2</a></li>
+      </ul>
+    </div>
+      <div class="col-10 MAIN">
+      <ul class="navigation inline" data-tabu data-start-index="1">
+        <li><a href="#firstContent">First Tab</a></li>
+        <li><a href="#secondContent">Second Tab</a></li>
+        <li><a href="#thirdContent">Third Tab</a></li>
+      </ul>
+      <div class="tabu-content">
+          <div class="content" id="firstContent">
+          <!-- First Content -->
+             <form action="" method="get" accept-charset="utf-8">
+               <label for="name">A label</label>
+               <input type="text" name="" id="name" value="" placeholder="A text field" />
+               <br />
+                <select name="" id="">
+                  <option>Select a language</option>
+                  <option>Ruby</option>
+                  <option>Javascript</option>
+                  <option>Objective-C</option>
+                </select>
+                <div class="row">
+                  <div class="col-6">
+                    <label for="radio">Choose an option</label>
+                    <input type="radio" name="radio" id="option1" value="" />
+                    <label for="option1">Option 1</label>
+                    <input type="radio" name="radio" id="option2" value="" />
+                    <label for="option2">Option 2</label>
+                  </div>          
+                  <div class="col-6">
+                    <label for="">Check as many as you want</label>
+                    <input type="checkbox" name="" id="check1" value="" />
+                    <label for="check1">Check two</label>
+                    <input type="checkbox" name="" id="check2" value="" />
+                    <label for="check2">Check one</label>
+                  </div>
+                </div>
+                <div class="row">
+                    <label for="textarea">A textarea</label>
+                   <textarea name="" id="textarea" rows="8" cols="40"></textarea>
+                </div>
+              </form>  
+          </div>
+          <div class="content" id="secondContent">
+            <!-- Second Content -->
+            <form action="" method="get" accept-charset="utf-8">
+              <label for="email">Email:</label>
+              <input type="text" class="error" name="" id="email" value="" />
+              <span class="help-hint error">It is not a well formed email...</span>
+              <label for="email_success">Email:</label>
+              <input type="text" class="success" name="" id="email_success" value="" />
+              <span class="help-hint success">Great on writing your name...</span>
+              <label for="bio">Bio:</label>
+              <textarea name="" id="bio" rows="4" cols="40" class="success"></textarea>
+              <span class="help-hint success">Impressive bio dude...</span>
+            </form>
+          </div>
+          <div class="content" id="thirdContent">
+           <!--  Third Content  -->
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat non tenetur repudiandae repellendus quasi autem illum iure quia, blanditiis laboriosam vitae est, eius nostrum, ut sunt perferendis mollitia ad dicta quos magnam, quam nesciunt cumque. Odit quidem similique deleniti libero laborum nisi qui dicta repudiandae, iure perferendis deserunt ipsa porro reprehenderit error natus facere nemo adipisci molestias quia consequuntur architecto.
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-10 offset-1">
+      <div class="suraido-container" data-suraido>
+        <ul>
+          <li style="background:url(img/galaxy3.jpg)">
+          <div class="caption">
+            <p>Posasda Villa de la Aldea, San Miguel de Allende, México.</p>
+          </div>
+          </li>
+          <li style="background:url(img/galaxy4.jpg)">
+          <div class="caption">
+            <p>San Miguel de Allende Nightlife</p>
+          </div>
+          </li>
+          <li style="background:url(img/galaxy5.jpg)">
+          <div class="caption">
+            <p>La Plaza Principal, San Miguel de Allende.</p>
+          </div>
+          </li>
+          <li style="background:url(img/galaxy6.jpg)">
+          <div class="caption">
+            <p>San Miguel de Allende Cathedral.</p>
+          </div>
+          </li>
+          <li style="background:url(img/galaxy7.jpg)">
+          <div class="caption">
+            <p>Rosewood Hotel, San Miguel de Allende.</p>
+          </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <div class="row">
+        <div class="col-4 offset-4">
+          <!--a link element to trigger the modal-->
+            <a class="button primary large" data-furatto="modal" data-target="#modal-1" data-transition="1" data-theme="alpha">Launch modal</a>
+
+            <!--the modal-->
+            <div class="modal" id="modal-1">
+              <div class="modal-header">
+                Modal Dialog
+              </div>
+              <div class="modal-content">
+                <div>
+                  <p>This is a modal window. It has 3 main elements:</p>
+                  <ul>
+                    <li><strong>Header:</strong> The top text of the modal, could be used as a title.</li>
+                    <li><strong>Content:</strong> The actual content of the modal content.</li>
+                    <li><strong>Footer:</strong> Probably a bunch of actions, or just the close button.</li>
+                  </ul>
+                  <div class="modal-footer">
+                    <a class="modal-close button alpha primary">Close me!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-8 offset-2">
+      <table class="responsive">
+       <thead>
+         <tr>
+           <th>Name</th>
+           <th>Twitter</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>Abraham Kuri</td>
+           <td>@kurenn</td>
+         </tr>
+         <tr>
+           <td>Icalia Labs</td>
+           <td>@icalialabs</td>
+         </tr>
+         <tr>
+           <td>Furatto</td>
+           <td>@furattoicalia</td>
+         </tr>
+       </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-8 offset-2">
+      <table>
+       <thead>
+         <tr>
+           <th>#</th>
+           <th>Name</th>
+           <th>Twitter</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>1</td>
+           <td>Abraham Kuri</td>
+           <td>@kurenn</td>
+         </tr>
+         <tr>
+           <td>2</td>
+           <td>Icalia Labs</td>
+           <td>@icalialabs</td>
+         </tr>
+         <tr>
+           <td>3</td>
+           <td>Furatto</td>
+           <td>@furattoicalia</td>
+         </tr>
+       </tbody>
+    </table>
+    </div>
+  </div>
+
+<!--includes javascript at the bottom so the page loads faster-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="dist/js/furatto.js"></script>
+
+</body>
+</html>
